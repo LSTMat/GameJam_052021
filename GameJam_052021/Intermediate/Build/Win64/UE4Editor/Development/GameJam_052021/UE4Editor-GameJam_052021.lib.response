@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GameJam_052021.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\GameJam_052021Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021Character.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021GameMode.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021HUD.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021Projectile.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021.init.gen.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021Character.gen.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021GameMode.gen.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021HUD.gen.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\GameJam_052021Projectile.gen.cpp.obj"
+"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\Default.rc2.res"
+/OUT:"G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\UE4Editor-GameJam_052021.lib"
+/INCLUDE:IMPLEMENT_MODULE_GameJam_052021

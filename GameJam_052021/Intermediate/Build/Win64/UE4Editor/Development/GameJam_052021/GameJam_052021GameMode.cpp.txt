@@ -1,0 +1,22 @@
+G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\Definitions.GameJam_052021.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Source\GameJam_052021\GameJam_052021GameMode.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Inc\GameJam_052021\GameJam_052021GameMode.generated.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Source\GameJam_052021\GameJam_052021HUD.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Inc\GameJam_052021\GameJam_052021HUD.generated.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Source\GameJam_052021\GameJam_052021Character.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\EpicGames\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\EpicGames\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Inc\GameJam_052021\GameJam_052021Character.generated.h

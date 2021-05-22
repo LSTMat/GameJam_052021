@@ -1,0 +1,2 @@
+G:\Git Repository\GameJam_052021\GameJam_052021\Intermediate\Build\Win64\UE4Editor\Development\GameJam_052021\Definitions.GameJam_052021.h
+G:\Git Repository\GameJam_052021\GameJam_052021\Source\GameJam_052021\GameJam_052021.h

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GameJam_052021",
+			"Path": "G:\\Git Repository\\GameJam_052021\\GameJam_052021\\Source\\GameJam_052021.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GameJam_052021Editor",
+			"Path": "G:\\Git Repository\\GameJam_052021\\GameJam_052021\\Source\\GameJam_052021Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
