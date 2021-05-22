@@ -898,3 +898,193 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
 [2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C
 [2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.Default__FirstPersonExampleMap_C
+[2021.05.22-11.03.16:178][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.22-11.03.18:761][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2021.05.22-11.03.20:687][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.22-11.03.23:838][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.05.22-11.03.25:225][257]LogSlate: Window 'Save Content' being destroyed
+[2021.05.22-11.03.25:386][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.03.25:399][257]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap3A8BF9B740A31E38D6A4D194B067B4CE.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.03.25:403][257]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.020
+[2021.05.22-11.03.25:418][257]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.05.22-11.03.25:418][257]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.03.32:286][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.03.33:707][ 34]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.22-11.03.33:832][ 34]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.05.22-11.03.36:567][ 34]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.735 s
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: === Handled ensure: ===
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: 
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: Ensure condition failed: Found [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 201]
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: Cannot remove redirection from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C, it was not registered
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: Stack: 
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9065a6988 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff906178a71 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff942d84b80 UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff90156f0cb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff90156ea8f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff900cd3f98 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff900f9a04e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff900fa70b7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902a3859e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902a5071e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9028946be UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902917f14 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902900337 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9028f3632 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9bcb5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da89197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da84310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff981d9e858 USER32.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff981d9e299 USER32.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9f7b9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902922233 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9028bd485 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff90103c07e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff90156e2c8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8f6a76bb8 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8e45570e9 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8e45572ee UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8e4547a17 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8f7050083 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8f7049532 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8f70c80e2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff8f704cfa7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902a3859e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902a5071e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9028946be UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902917f14 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff902900337 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff9028f3632 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9bcb5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da89197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da84310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff981d9e858 USER32.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff981d9e299 USER32.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff94da9f914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff6b4738848 UE4Editor.exe!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff6b475117c UE4Editor.exe!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff6b475125a UE4Editor.exe!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff6b47652bd UE4Editor.exe!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff6b4767fea UE4Editor.exe!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff980487034 KERNEL32.DLL!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: [Callstack] 0x00007ff982402651 ntdll.dll!UnknownFunction []
+[2021.05.22-11.03.36:571][ 34]LogOutputDevice: Error: 
+[2021.05.22-11.03.36:582][ 34]LogStats:                SubmitErrorReport -  0.000 s
+[2021.05.22-11.03.45:406][ 34]LogStats:                    SendNewReport -  8.823 s
+[2021.05.22-11.03.45:406][ 34]LogStats:             FDebug::EnsureFailed - 11.573 s
+[2021.05.22-11.03.45:609][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.05.22-11.03.45:618][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.05.22-11.03.45:621][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.03.45:947][ 34]SourceControl: Error: Updated 0 paths from the index
+[2021.05.22-11.03.46:137][ 34]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2021.05.22-11.03.51:407][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:242][ 21]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.03.56:532][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.03.56:545][ 21]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMapEAA74AA242F05F3C197C9593AEDF9C12.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.03.56:549][ 21]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.020
+[2021.05.22-11.03.56:811][ 21]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltDataEAAEAB574174AA4E69D6CB87FE08461E.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.04.47:540][ 21]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-11.04.47:566][ 22]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.04.47:566][ 22]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.04.47:566][ 22]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.05.20:177][120]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:664][618]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.23:950][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.05.22-11.06.23:963][618]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap6DF60B0847184EB26A38AE9D7FFAA0F2.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.06.23:967][618]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.021
+[2021.05.22-11.06.24:233][618]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltData4301DFE84000311F816D40AA887BA9F5.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.06.35:035][618]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-11.06.35:055][619]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.06.35:055][619]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.06.35:055][619]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.06.36:146][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:141][172]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.06.40:426][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.05.22-11.06.40:439][172]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap4327E3F54F6D61130AC0C4BBB7B18422.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.06.40:443][172]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.021
+[2021.05.22-11.06.40:698][172]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltData66AE68C3413620D5D762AEB8B48A45A8.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.06.45:949][172]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-11.06.49:242][172]LogSourceControl: commit successful: [main 966ef7e] Delete Old Default Map Folder
+[2021.05.22-11.06.49:407][172]SourceControl: [main 966ef7e] Delete Old Default Map Folder
+[2021.05.22-11.06.49:407][172]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2021.05.22-11.06.49:407][172]SourceControl:  delete mode 100644 GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2021.05.22-11.06.49:407][172]SourceControl:  create mode 100644 GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset
+[2021.05.22-11.06.49:412][172]SourceControl: Commited [main 966ef7e] Delete Old Default Map Folder.
+[2021.05.22-11.06.49:446][173]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.06.49:446][173]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.06.49:446][173]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.07.37:454][278]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.05.22-11.07.37:466][278]LogContentBrowser: Creating deferred item: NewFolder
+[2021.05.22-11.07.41:902][808]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2021.05.22-11.07.42:004][808]LogContentBrowser: End creating deferred item NewFolder
