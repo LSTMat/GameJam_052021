@@ -833,3 +833,68 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.05.22-10.23.55:358][ 71]SourceControl:  1 file changed, 19 insertions(+)
 [2021.05.22-10.23.55:358][ 71]SourceControl:  create mode 100644 GameJam_052021/GameJam_052021.uproject
 [2021.05.22-10.23.55:365][ 71]SourceControl: Commited [main 30f5132] First Track.
+[2021.05.22-10.48.50:212][ 82]LogContentBrowser: Attempting asset rename: Maps -> Maps_DEFAULT_UE
+[2021.05.22-10.48.51:131][ 82]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.22-10.48.51:480][ 82]LogMetaData: Removing '/Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2021.05.22-10.48.51:480][ 82]LogMetaData: Removing '/Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2021.05.22-10.48.51:816][ 82]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltDataD97B466E4B5A343D5ABA6383A826B190.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-10.48.52:036][ 82]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2021.05.22-10.48.52:036][ 82]SourceControl: Error: GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset
+[2021.05.22-10.48.52:036][ 82]SourceControl: Error: hint: Use -f if you really want to add them.
+[2021.05.22-10.48.52:036][ 82]SourceControl: Error: hint: Turn this message off by running
+[2021.05.22-10.48.52:036][ 82]SourceControl: Error: hint: "git config advice.addIgnoredFile false"
+[2021.05.22-10.48.52:064][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.22-10.48.52:129][ 82]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap7CAAE1F24962952F34CA6ABE88B7D2BB.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-10.48.52:704][ 82]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.645
+[2021.05.22-10.48.52:705][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Maps/FirstPersonExampleMap" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" SILENT=true
+[2021.05.22-10.48.52:706][ 82]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMapDBB41845433FDAFEFD235C95B7924F7A.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2021.05.22-10.48.53:500][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-10.48.53:511][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.22-10.48.53:515][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-10.48.53:648][ 82]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-10.48.53:648][ 82]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-10.48.53:649][ 82]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-10.48.53:649][ 82]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-10.48.53:649][ 82]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C
+[2021.05.22-10.48.53:649][ 82]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.Default__FirstPersonExampleMap_C
+[2021.05.22-10.49.03:732][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.08:942][852]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-10.49.09:259][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Maps/FirstPersonExampleMap" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" SILENT=true
+[2021.05.22-10.49.09:260][852]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap3823A9E44090D6FF9136B1A6A8A05ECB.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2021.05.22-10.49.09:265][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.05.22-10.49.09:279][852]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap1B65540A433143A758CB3B98B03D6087.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-10.49.09:283][852]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.021
+[2021.05.22-10.49.30:480][852]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-10.49.32:429][852]LogSourceControl: commit successful: [main 582dcf3] Rename Folder UE Default Map
+[2021.05.22-10.49.32:571][852]SourceControl: [main 582dcf3] Rename Folder UE Default Map
+[2021.05.22-10.49.32:571][852]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2021.05.22-10.49.32:571][852]SourceControl:  rewrite GameJam_052021/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap (99%)
+[2021.05.22-10.49.32:571][852]SourceControl:  copy GameJam_052021/Content/FirstPersonCPP/{Maps => Maps_DEFAULT_UE}/FirstPersonExampleMap.umap (99%)
+[2021.05.22-10.49.32:577][852]SourceControl: Commited [main 582dcf3] Rename Folder UE Default Map.
+[2021.05.22-10.49.32:606][853]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C
+[2021.05.22-10.49.32:606][853]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.Default__FirstPersonExampleMap_C
