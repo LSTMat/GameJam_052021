@@ -1088,3 +1088,453 @@ Script Stack (0 frames):
 [2021.05.22-11.07.37:466][278]LogContentBrowser: Creating deferred item: NewFolder
 [2021.05.22-11.07.41:902][808]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
 [2021.05.22-11.07.42:004][808]LogContentBrowser: End creating deferred item NewFolder
+[2021.05.22-11.09.08:328][900]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2021.05.22-11.09.08:350][900]LogContentBrowser: Creating deferred item: NewWorld
+[2021.05.22-11.09.17:184][955]LogContentBrowser: Attempting asset rename: NewWorld -> Level_0
+[2021.05.22-11.09.17:510][955]LogContentBrowser: End creating deferred item NewWorld
+[2021.05.22-11.09.18:880][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.22-11.09.20:954][116]LogSlate: Window 'Save Content' being destroyed
+[2021.05.22-11.09.21:097][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.09.21:100][116]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_034ABC40346F4613A14F18F8C1DC686D5.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap'
+[2021.05.22-11.09.21:338][116]LogFileHelpers: Saving map 'Level_0' took 0.244
+[2021.05.22-11.09.21:359][116]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.09.21:359][116]Cmd: MAP LOAD FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.09.21:359][116]LightingResults: New page: Lighting Build
+[2021.05.22-11.09.21:359][116]LoadErrors: New page: Loading map: Level_0.umap
+[2021.05.22-11.09.21:488][116]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.09.21:488][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.09.21:488][116]MapCheck: New page: Map Check
+[2021.05.22-11.09.21:488][116]LightingResults: New page: Lighting Build
+[2021.05.22-11.09.21:493][116]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.09.21:499][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.05.22-11.09.21:511][116]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_0'.
+[2021.05.22-11.09.21:512][116]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.09.21:512][116]LogAIModule: Creating AISystem for world Level_0
+[2021.05.22-11.09.21:516][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.22-11.09.21:518][116]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.09.21:518][116]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,23ms to complete.
+[2021.05.22-11.09.21:518][116]LogFileHelpers: Loading map 'Level_0' took 0.159
+[2021.05.22-11.09.21:527][116]AssetCheck: New page: Asset Save: Level_0
+[2021.05.22-11.09.21:527][116]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.09.30:592][192]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/Mats/ScatterGather/AdvectVelo.uasset: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/Mats/ScatterGather/AdvectVelo.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasMaster.uasset: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content/Materials/AliasMaster.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/EditorLandscapeResources: 'D:/EpicGames/UE_4.26/Engine/Content/EditorLandscapeResources' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.43:636][686]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.09.53:698][831]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.05.22-11.09.53:711][831]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.05.22-11.09.53:724][831]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2021.05.22-11.10.14:383][262]Cmd: TRANSACTION UNDO
+[2021.05.22-11.10.14:383][262]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2021.05.22-11.10.43:503][623]MapCheck: New page: Map Check
+[2021.05.22-11.10.43:519][623]Cmd: MAP REBUILD ALLVISIBLE
+[2021.05.22-11.10.43:520][623]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.05.22-11.10.43:520][623]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=false
+[2021.05.22-11.10.43:526][623]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.05.22-11.10.43:526][623]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.05.22-11.10.43:526][623]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.05.22-11.10.43:530][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.05.22-11.10.43:536][623]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.22-11.10.43:897][623]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.05.22-11.10.43:897][623]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.05.22-11.10.43:897][623]TextureStreamingBuild: Display: Compiling optional shaders took 0.364 seconds.
+[2021.05.22-11.10.43:897][623]LogLevel: Display: Export Material TexCoord Scales took 0.000 seconds.
+[2021.05.22-11.10.43:898][623]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2021.05.22-11.10.43:901][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.10.43:903][623]LightingResults: New page: Lighting Build - 22 mag 2021, 15:10:43
+[2021.05.22-11.10.43:948][623]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.05.22-11.10.44:001][623]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.05.22-11.10.44:011][623]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.05.22-11.10.44:527][623]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.05.22-11.10.44:527][623]LogSwarmInterface: [TryOpenConnection] Local Process ID is 26004
+[2021.05.22-11.10.57:855][623]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.05.22-11.10.57:855][623]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.05.22-11.10.57:855][623]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.05.22-11.10.57:855][623]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.05.22-11.10.57:855][623]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.05.22-11.10.57:855][623]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.05.22-11.10.58:033][623]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.05.22-11.10.58:033][623]MapCheck: New page: Level_0 - 22 mag 2021, 15:10:58
+[2021.05.22-11.10.58:143][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109,795ms to complete.
+[2021.05.22-11.10.58:144][623]LogEditorBuildUtils: Build time 0:14
+[2021.05.22-11.10.59:697][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.05.22-11.11.03:480][685]Job is a success!
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.064s
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb (trimmed 3.3Mb due to 0.010000 MinBrickError)
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:      Bricks at depth
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:          0: 14.0% covering 100.0% of volume
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:          1: 86.0% covering 9.6% of volume
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:      Bricks in each level
+[2021.05.22-11.11.04:176][686]LogVolumetricLightmapImport:          Level_0 			 57 bricks 	 100.0% (Persistent Level)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2021.05.22-11.11.04:312][686]LogTexture: Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:313][686]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:313][686]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2021.05.22-11.11.04:313][686]LogTexture: Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2021.05.22-11.11.04:313][686]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2021.05.22-11.11.04:313][686]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2021.05.22-11.11.04:313][686]Lightmass on ALE-PC: 4.10 sec total, 211 ms importing, 164 ms setup, 818 ms photons, 2.87 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 43.0 sec total, 11.2 sec processing.
+[2021.05.22-11.11.04:349][686]LogStaticLightingSystem: Level_0_BuiltData storing lightmap data for 64 meshes in 20 LightmapResourceClusters (3.2 Meshes per cluster).
+[2021.05.22-11.11.04:355][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.11.04:431][686]LogStaticLightingSystem: Illumination: 20.4 sec (44 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2021.05.22-11.11.04:431][686]LogStaticLightingSystem: Lightmap texture memory:  2.9 MB (2.9 MB streaming, 0.0 MB non-streaming), 40 textures
+[2021.05.22-11.11.04:431][686]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.05.22-11.11.21:874][686]DumpUnbuiltLightIteractions
+[2021.05.22-11.11.21:874][686]Lights with unbuilt interactions: 0
+[2021.05.22-11.11.21:874][686]
+[2021.05.22-11.11.21:874][686]Primitives with unbuilt interactions: 0
+[2021.05.22-11.11.21:933][687]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.05.22-11.11.21:933][687]MapCheck: New page: Level_0 - 22 mag 2021, 15:11:21
+[2021.05.22-11.11.21:933][687]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,275ms to complete.
+[2021.05.22-11.11.36:355][730]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-11.11.36:359][730]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-11.11.38:409][972]LogObjectTools: Deleting 1 worlds: /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.11.38:409][972]LogObjectTools: Currently 5 active worlds: /Game/FirstPersonCPP/Levels/Level_0.Level_0, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2021.05.22-11.11.39:995][972]LogSlate: Window 'Unable to delete level' being destroyed
+[2021.05.22-11.11.40:001][972]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2021.05.22-11.11.42:966][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.22-11.11.46:473][323]LogSlate: Window 'Save Content' being destroyed
+[2021.05.22-11.11.46:627][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.11.46:672][323]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_068138AA74851B0CD28E39AB72E734538.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap'
+[2021.05.22-11.11.46:676][323]LogFileHelpers: Saving map 'Level_0' took 0.052
+[2021.05.22-11.11.46:676][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Levels/Level_0_BuiltData" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset" SILENT=true
+[2021.05.22-11.11.46:718][323]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0_BuiltData2914CA0844EC9F4AE02F36845F2A7B91.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.11.47:270][323]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.11.47:270][323]Cmd: MAP LOAD FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.11.47:270][323]LightingResults: New page: Lighting Build
+[2021.05.22-11.11.47:270][323]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2021.05.22-11.11.47:271][323]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.11.47:271][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.11.47:271][323]MapCheck: New page: Map Check
+[2021.05.22-11.11.47:271][323]LightingResults: New page: Lighting Build
+[2021.05.22-11.11.47:274][323]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.11.47:279][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.22-11.11.47:280][323]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2021.05.22-11.11.47:283][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.11.47:283][323]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.22-11.11.47:288][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.22-11.11.47:290][323]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.11.47:290][323]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,123ms to complete.
+[2021.05.22-11.11.47:290][323]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.020
+[2021.05.22-11.11.47:299][323]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.11.47:299][323]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.11.47:318][323]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.05.22-11.11.47:320][323]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Levels/Level_0_BuiltData.Level_0_BuiltData
+[2021.05.22-11.11.50:250][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.05.22-11.11.50:376][667]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.22-11.11.52:012][667]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.22-11.11.53:439][836]LogObjectTools: Deleting 1 worlds: /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.11.53:439][836]LogObjectTools: Currently 5 active worlds: /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2021.05.22-11.11.53:443][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.11.54:595][836]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.22-11.11.54:609][836]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.11.54:610][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.11.55:101][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.22-11.11.55:105][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.05.22-11.11.55:114][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.05.22-11.11.55:117][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.05.22-11.11.55:284][836]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap'
+[2021.05.22-11.11.55:284][836]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.11.58:338][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/EngineLightProfiles: 'D:/EpicGames/UE_4.26/Engine/Content/EngineLightProfiles' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset: 'D:/EpicGames/UE_4.26/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicLibrary/Public: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicLibrary/Public' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public/AbstractNavData.h: 'D:/EpicGames/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public/AbstractNavData.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content/Modules/Update/Forces/AccelerationForce.uasset: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content/Modules/Update/Forces/AccelerationForce.uasset' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes: 'D:/EpicGames/UE_4.26/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h: 'D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Editor/Blutility/Classes/ActorActionUtility.h: 'D:/EpicGames/UE_4.26/Engine/Source/Editor/Blutility/Classes/ActorActionUtility.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/ActorChannel.h: 'D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/ActorChannel.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h: 'D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Public/ComponentInstanceDataCache.h: 'D:/EpicGames/UE_4.26/Engine/Source/Runtime/Engine/Public/ComponentInstanceDataCache.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Source/Editor/UnrealEd/Classes/ActorFactories: 'D:/EpicGames/UE_4.26/Engine/Source/Editor/UnrealEd/Classes/ActorFactories' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.11.58:339][130]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Source/ChaosSolverEditor/Private/Chaos/ActorFactoryChaosSolver.h: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Source/ChaosSolverEditor/Private/Chaos/ActorFactoryChaosSolver.h' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.12.01:433][459]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.05.22-11.12.01:445][459]LogContentBrowser: Creating deferred item: NewFolder
+[2021.05.22-11.12.04:273][799]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2021.05.22-11.12.04:273][799]LogContentBrowser: End creating deferred item NewFolder
+[2021.05.22-11.12.09:257][369]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2021.05.22-11.12.09:263][369]LogContentBrowser: Creating deferred item: NewWorld
+[2021.05.22-11.12.11:865][682]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2021.05.22-11.12.11:991][682]LogContentBrowser: End creating deferred item NewWorld
+[2021.05.22-11.12.15:747][ 88]LogObjectTools: Deleting 1 worlds: /Game/FirstPersonCPP/Levels/NewWorld.NewWorld
+[2021.05.22-11.12.15:747][ 88]LogObjectTools: Currently 5 active worlds: /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2021.05.22-11.12.15:751][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.22-11.12.16:709][ 88]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.22-11.12.16:738][ 88]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.12.16:738][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.12.16:792][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.22-11.12.23:540][523]LogSlate: Window 'New Level' being destroyed
+[2021.05.22-11.12.23:547][523]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/TimeOfDay_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.12.23:561][523]LightingResults: New page: Lighting Build
+[2021.05.22-11.12.23:561][523]LoadErrors: New page: Loading map: TimeOfDay_Default.umap
+[2021.05.22-11.12.23:562][523]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.12.23:562][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.12.23:562][523]MapCheck: New page: Map Check
+[2021.05.22-11.12.23:562][523]LightingResults: New page: Lighting Build
+[2021.05.22-11.12.23:566][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.12.23:567][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.22-11.12.24:265][523]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2021.05.22-11.12.24:266][523]LogAIModule: Creating AISystem for world Untitled_1
+[2021.05.22-11.12.24:294][523]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.12.24:300][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.05.22-11.12.24:307][523]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.12.24:307][523]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,24ms to complete.
+[2021.05.22-11.12.24:307][523]LogFileHelpers: Loading map 'TimeOfDay_Default' took 0.760
+[2021.05.22-11.12.35:414][801]Cmd: SELECT NONE
+[2021.05.22-11.12.36:095][882]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2021.05.22-11.12.42:242][269]LogSlate: Window 'New Level' being destroyed
+[2021.05.22-11.12.42:247][269]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.12.42:269][269]LightingResults: New page: Lighting Build
+[2021.05.22-11.12.42:269][269]LoadErrors: New page: Loading map: Template_Default.umap
+[2021.05.22-11.12.42:270][269]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.12.42:270][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.12.42:270][269]MapCheck: New page: Map Check
+[2021.05.22-11.12.42:270][269]LightingResults: New page: Lighting Build
+[2021.05.22-11.12.42:273][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.12.42:274][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.22-11.12.42:279][269]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.05.22-11.12.42:281][269]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2021.05.22-11.12.42:282][269]LogAIModule: Creating AISystem for world Untitled_2
+[2021.05.22-11.12.42:284][269]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.12.42:289][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.05.22-11.12.42:304][269]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.12.42:304][269]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,217ms to complete.
+[2021.05.22-11.12.42:304][269]LogFileHelpers: Loading map 'Template_Default' took 0.059
+[2021.05.22-11.12.43:907][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.22-11.12.44:303][489]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.12.55:117][489]LogSlate: Window 'Save Level As' being destroyed
+[2021.05.22-11.12.55:148][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.22-11.12.55:154][489]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0394B12D8446EEAC4C94E428F021E580E.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap'
+[2021.05.22-11.12.55:601][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Levels/Level_0_BuiltData" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset" SILENT=true
+[2021.05.22-11.12.55:611][489]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0_BuiltData990213E943DAC1A5E462E7A24D2EDCFD.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.12.55:873][489]LogFileHelpers: Saving map 'Level_0' took 0.750
+[2021.05.22-11.12.55:875][489]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.12.55:875][489]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Levels/Level_0.Level_0
+[2021.05.22-11.12.55:875][489]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Levels/Level_0_BuiltData.Level_0_BuiltData
+[2021.05.22-11.12.56:047][508]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.12:537][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0_BuiltData" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset" SILENT=true
+[2021.05.22-11.13.12:546][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0_BuiltData2CCF370242AAECFB065F0CADA001D067.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.13.12:828][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.22-11.13.12:832][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.22-11.13.12:838][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_04CDCB83F4FF18CE338158BB2E7604231.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap'
+[2021.05.22-11.13.13:099][258]LogFileHelpers: Saving map 'Level_0' took 0.272
+[2021.05.22-11.13.13:449][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.05.22-11.13.13:453][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.05.22-11.13.13:461][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.22-11.13.13:465][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.13.13:652][258]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Levels/Level_0.umap'
+[2021.05.22-11.13.13:652][258]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.13.14:770][258]LogMetaData: Removing '/Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.PackageMetaData'
+[2021.05.22-11.13.14:770][258]LogMetaData: Removing '/Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.PackageMetaData'
+[2021.05.22-11.13.15:043][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltData5705AE0447C012CCEDCDCD95E7FB18F0.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.13.15:969][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltData1831107A46B3F72051952B8E98B8766A.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.13.15:977][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.05.22-11.13.15:991][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap981706B449DE794A8D5C518CB043B6E2.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.13.16:611][258]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.640
+[2021.05.22-11.13.16:613][258]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap21814EF346CBED7EC2130A8D76043855.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.13.17:358][258]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating World /Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.Default__FirstPersonExampleMap_C
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap_C
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating World /Game/Maps/Levels/Level_0.Level_0
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Levels/Level_0_BuiltData.Level_0_BuiltData
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.13.17:358][258]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.13.27:624][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.05.22-11.13.29:995][436]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.22-11.13.30:165][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.05.22-11.13.30:168][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.13.30:180][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.05.22-11.13.30:184][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.05.22-11.13.30:850][436]SourceControl: Error: Updated 2 paths from the index
+[2021.05.22-11.13.31:257][436]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.13.31:257][436]SourceControl: rm 'GameJam_052021/Content/FirstPersonCPP/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.13.36:084][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.13.38:130][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:194][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:195][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:195][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:195][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:195][804]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.13.43:505][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.22-11.13.43:509][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.22-11.13.43:514][804]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0D2C3649744365C5021B4FE98472C78A9.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap'
+[2021.05.22-11.13.43:518][804]LogFileHelpers: Saving map 'Level_0' took 0.013
+[2021.05.22-11.13.43:518][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0_BuiltData" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset" SILENT=true
+[2021.05.22-11.13.43:527][804]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0_BuiltData3BDE74CA42FC817120C0D9BA9ADE3BC9.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.13.43:535][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.22-11.13.43:552][804]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap387974AC48F6E52077C49EA5AD35BACD.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.umap'
+[2021.05.22-11.13.43:555][804]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.026
+[2021.05.22-11.13.43:819][804]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltData9161D53044E28BFB156E7A8BEAA9EA8D.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.13.51:165][804]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-11.13.51:185][805]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.13.51:185][805]LogContentValidation: Display: Validating World /Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.22-11.13.51:185][805]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.22-11.13.51:185][805]LogContentValidation: Display: Validating World /Game/Maps/Levels/Level_0.Level_0
+[2021.05.22-11.13.51:185][805]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Levels/Level_0_BuiltData.Level_0_BuiltData
+[2021.05.22-11.14.02:370][608]LogSlate: Window 'New Level' being destroyed
+[2021.05.22-11.14.02:376][608]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.14.02:397][608]LightingResults: New page: Lighting Build
+[2021.05.22-11.14.02:397][608]LoadErrors: New page: Loading map: Template_Default.umap
+[2021.05.22-11.14.02:398][608]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.14.02:398][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.14.02:398][608]MapCheck: New page: Map Check
+[2021.05.22-11.14.02:398][608]LightingResults: New page: Lighting Build
+[2021.05.22-11.14.02:435][608]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.14.02:438][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.05.22-11.14.02:443][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.22-11.14.02:448][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.05.22-11.14.02:453][608]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.05.22-11.14.02:455][608]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_3'.
+[2021.05.22-11.14.02:455][608]LogAIModule: Creating AISystem for world Untitled_3
+[2021.05.22-11.14.02:457][608]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.14.02:462][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.22-11.14.02:466][608]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.14.02:467][608]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,223ms to complete.
+[2021.05.22-11.14.02:467][608]LogFileHelpers: Loading map 'Template_Default' took 0.091
+[2021.05.22-11.14.08:684][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.22-11.14.08:707][346]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Levels/Level_0.Level_0
+[2021.05.22-11.14.08:707][346]Cmd: MAP LOAD FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.22-11.14.08:707][346]LightingResults: New page: Lighting Build
+[2021.05.22-11.14.08:707][346]LoadErrors: New page: Loading map: Level_0.umap
+[2021.05.22-11.14.08:744][346]LogWorld: UWorld::CleanupWorld for Untitled_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-11.14.08:744][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-11.14.08:744][346]MapCheck: New page: Map Check
+[2021.05.22-11.14.08:744][346]LightingResults: New page: Lighting Build
+[2021.05.22-11.14.08:748][346]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.22-11.14.08:751][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.05.22-11.14.08:751][346]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_0'.
+[2021.05.22-11.14.08:753][346]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.22-11.14.08:753][346]LogAIModule: Creating AISystem for world Level_0
+[2021.05.22-11.14.08:758][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.22-11.14.08:760][346]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.22-11.14.08:760][346]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,113ms to complete.
+[2021.05.22-11.14.08:760][346]LogFileHelpers: Loading map 'Level_0' took 0.053
+[2021.05.22-11.14.10:110][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Content: 'D:/EpicGames/UE_4.26/Engine/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:436][966]SourceControl: fatal: D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'G:/Git Repository/GameJam_052021'
+[2021.05.22-11.14.14:839][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.22-11.14.14:843][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.22-11.14.14:848][966]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0CD0B10DC452776F96C28FAACD87A8A2E.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0.umap'
+[2021.05.22-11.14.14:854][966]LogFileHelpers: Saving map 'Level_0' took 0.015
+[2021.05.22-11.14.14:854][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Level_0_BuiltData" FILE="G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset" SILENT=true
+[2021.05.22-11.14.14:867][966]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/Level_0_BuiltDataCF64D9C748BCA11586696492DD6A1982.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset'
+[2021.05.22-11.14.15:129][966]LogSavePackage: Moving 'G:/Git Repository/GameJam_052021/GameJam_052021/Saved/FirstPersonExampleMap_BuiltDataE9268AB047D59ABC9B1CC88AB2A61F49.tmp' to 'G:/Git Repository/GameJam_052021/GameJam_052021/Content/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.22-11.14.23:496][966]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.22-11.14.27:040][966]LogSourceControl: commit successful: [main 5b5f422] Set Up Levels
+[2021.05.22-11.14.27:270][966]SourceControl: [main 5b5f422] Set Up Levels
+[2021.05.22-11.14.27:270][966]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2021.05.22-11.14.27:270][966]SourceControl:  create mode 100644 GameJam_052021/Content/Maps/Levels/Level_0.umap
+[2021.05.22-11.14.27:270][966]SourceControl:  create mode 100644 GameJam_052021/Content/Maps/Levels/Level_0_BuiltData.uasset
+[2021.05.22-11.14.27:270][966]SourceControl:  rename GameJam_052021/Content/{FirstPersonCPP => Maps}/Maps_DEFAULT_UE/FirstPersonExampleMap.umap (99%)
+[2021.05.22-11.14.27:270][966]SourceControl:  rename GameJam_052021/Content/{FirstPersonCPP => Maps}/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.uasset (99%)
+[2021.05.22-11.14.27:276][966]SourceControl: Commited [main 5b5f422] Set Up Levels.
+[2021.05.22-11.14.27:313][967]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.22-11.14.27:313][967]LogContentValidation: Display: Validating World /Game/Maps/Levels/Level_0.Level_0
+[2021.05.22-11.14.27:313][967]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Levels/Level_0_BuiltData.Level_0_BuiltData
+[2021.05.22-11.14.27:313][967]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Maps_DEFAULT_UE/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
